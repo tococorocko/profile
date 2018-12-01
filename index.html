@@ -2,12 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Basic Info | Lucca Kaiser</title>
+    <title>Profile Page | Lucca Kaiser | Berlin</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400" rel="stylesheet">
 
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="description" content="Lucca Kaiser's awesome profile page about himself. Online showpage listing skills and notable projects. Version 1 built at Le Wagon Bootcamp in Berlin.">
+    <meta name="keywords" content="Profile, Lucca, Kaiser, Developer, Ruby, Ruby on Rails, HTML,CSS, JavaScript">
+    <meta name="author" content="Lucca Kaiser">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="theme-color" content=#0D730A />
     <link rel="stylesheet" href="style.css">
   </head>
 
@@ -16,37 +22,128 @@
       <div class="white-card top text-center">
         <img src="images/my_profile_pic.jpeg" alt="Profile Pic Lucca Kaiser" id="profile">
         <h1>Lucca Kaiser</h1>
-          <h2>Junior Developer in the making</h2>
-            <p>After a few years as an account manager, I got bored and attended a coding bootcamp to become a developer.</p>
-            <a target="_blank" rel="noopener noreferrer" href = "mailto: luccakaiser@gmail.com" class="btn-yellow">Contact Me!</a>
+          <h2>Developer</h2>
+            <p class="welcome-description">Welcome to my profile page! Feel free to contact me if there are any questions.</p>
+            <a target="_blank" rel="noopener noreferrer" href = "mailto: luccakaiser@gmail.com" class="btn btn-yellow">Contact Me!</a>
       </div>
+
+
+        <div class="white-card top text-center">
+            <h2>About me</h2>
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <i class="fas fa-birthday-cake"></i>
+                <h3>March, 1990</h3>
+              </div>
+              <div class="col-12 col-md-4">
+                <i class="fas fa-plus-square"></i>
+                <h3>Swiss</h3>
+              </div>
+              <div class="col-12 col-md-4">
+                <i class="fas fa-address-card"></i>
+                <h3>Müggelstr. 8, 10247 Berlin</h3>
+              </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="white-card top text-center">
+          <h2>Education</h2>
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+
+        <div class="white-card top text-center">
+            <h2>Experience</h2>
+            <i class="fas fa-briefcase"></i>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <a href="https://www.boostability.com/">
+                <img src="images/boostability.jpeg" alt="Boostability" class="pic-size-logo" >
+                <h3>Boostability</h3>
+                <p class="job-description">SEO Account Manager</p>
+                <p class="job-description">2018</p>
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a href="http://dls-lehrmittel.ch">
+                <img src="images/dls.jpeg" alt="DLS Lehrmittel" class="pic-size-logo" >
+                <h3>DLS Lehrmittel AG</h3>
+                <p class="job-description">Account Manager</p>
+                <p class="job-description">2011-2016</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="white-card top text-center">
+            <h2>Interests</h2>
+            <div class="row">
+              <div class="col-16 col-md-4">
+                <i class="fas fa-futbol"></i>
+                <h3>Football/Sport</h3>
+              </div>
+              <div class="col-16 col-md-4">
+                <i class="fab fa-spotify"></i>
+                <h3>Music</h3>
+              </div>
+              <div class="col-16 col-md-4">
+                <i class="fas fa-gamepad"></i>
+                <h3>Video Games</h3>
+              </div>
+            </div>
+        </div>
+
       <div class="white-card text-center">
-        <ul class="list-inline">
-          <li class="text-center">
-            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/lucca.keisherson">
-              <i class="fab fa-facebook-f"></i> <br> Facebook
-            </a>
-          </li>
-          <li class="text-center">
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucca-k-17b2a9146/">
-              <i class="fab fa-linkedin-in"></i> <br> Linkedin
-            </a>
-          </li>
-          <li class="text-center">
-            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Tococorocko">
-              <i class="fab fa-twitter"></i> <br> Twitter
-            </a>
-          </li>
-          <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/tococorocko">
-              <i class="fab fa-github"></i></i> <br> Github
-            </a>
-          </li>
-        </ul>
+        <h2>Programming Languages & Skills</h2>
+        <i class="fas fa-laptop"></i>
+        <div class="row">
+          <div class="col-6 col-md-4">
+            <img src="images/ruby.png" alt="Ruby" class="pic-size" >
+          </div>
+          <div class="col-6 col-md-4">
+              <img src="images/rails.png" alt="Ruby on Rails" class="pic-size">
+          </div>
+          <div class="col-6 col-md-4">
+              <img src="images/github.png" alt="GitHub" class="pic-size">
+          </div>
+          <div class="col-6 col-md-4">
+            <img src="images/html.svg" alt="HTML" class="pic-size" >
+          </div>
+          <div class="col-6 col-md-4">
+              <img src="images/css.svg" alt="CSS" class="pic-size">
+          </div>
+          <div class="col-6 col-md-4">
+              <img src="images/javascript.png" alt="JavaScript" class="pic-size">
+          </div>
+        </div>
       </div>
+
       <div class="white-card text-center">
+        <h2>Notable Projects</h2>
+        <i class="fas fa-project-diagram"></i>
+          <div class="row">
+          <div class="col-12 col-md-6">
+            <a href="https://www.digital-pub.live/">
+              <h3 class="text-center">Digital Pub</h3>
+              <img src="images/digital-pub.png" alt="digital-pub" class="pic-size-big" >
+            </a>
+          </div>
+          <div class="col-12 col-md-6">
+              <a href="https://need-a-cocktail.herokuapp.com/">
+                <h3 class="text-center">Need a Cocktail</h3>
+                <img src="images/need-a-cocktail.png" alt="need-a-cocktail" class="pic-size-big" >
+              </a>
+          </div>
+        </div>
+      </div>
+
+
+
+<!--       <div class="white-card text-center">
         <h2>My favourite tv shows</h2>
-        <table id="movies">
+        <table class="table-class">
           <tr>
             <td>
               <img src="images/breaking_bad.jpeg" alt="Breaking Bad" class="pic-size" >
@@ -75,10 +172,39 @@
             </td>
           </tr>
         </table>
-      </div>
+      </div> -->
+
       <div class="white-card text-center">
+        <ul class="list-inline">
+          <li class="text-center">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/lucca.keisherson">
+              <i class="fab fa-facebook-f"></i>
+              <p>Facebook</p>
+            </a>
+          </li>
+          <li class="text-center">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucca-k-17b2a9146/">
+              <i class="fab fa-linkedin-in"></i>
+              <p>Linkedin</p>
+            </a>
+          </li>
+          <li class="text-center">
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Tococorocko">
+              <i class="fab fa-twitter"></i>
+              <p> Twitter </p>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/tococorocko">
+              <i class="fab fa-github"></i></i>
+              <p> Github</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+<!--       <div class="white-card text-right">
         <h2>About this page</h2>
-          <p>This page has been coded during the <a target="_blank" rel="noopener noreferrer" href="https://www.lewagon.com/">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
+          <p> ©Lucca Kaiser</p>
           <ul class="list-inline">
             <li>
               <a href="">
@@ -96,7 +222,7 @@
               </a>
             </li>
           </ul>
-      </div>
+        </div> -->
     </div>
   </body>
 </html>

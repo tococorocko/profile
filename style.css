@@ -18,6 +18,7 @@ h2 {
   color: #B8BACF;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
+  margin: 10px 0;
 }
 
 h3 {
@@ -25,20 +26,30 @@ h3 {
   color: #B8BACF;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
-  text-align: left;
+/*  text-align: left;
+*/  margin: 10px 0;
 }
 
 p {
     text-align: justify;
+    opacity: 0.8;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #999AC6;
 }
 
 a:hover {
-  color: #EBEBEB;
+  text-decoration:none;
+  opacity: 0.6;
+  color: #999AC6;
+}
+
+i {
+  text-align: center;
+  color: #B8BACF;
+  font-size: 40px;
 }
 
 .container {
@@ -67,14 +78,14 @@ a:hover {
 
 
 #profile {
-  height: 200px;
+  height: 150px;
   border-radius: 50%;
+  margin: 15px 0;
 }
 
-#movies {
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 1.6em;
+.welcome-description {
+  text-align: center;
+  font-weight: bolder;
 }
 
 .white-card {
@@ -85,9 +96,6 @@ a:hover {
   padding: 20px;
 }
 
-.text-center {
-    text-align: center;
-}
 
 .btn-yellow {
   background-color: #EED4B2;
@@ -100,6 +108,29 @@ a:hover {
   background-color: rgba(238, 212, 178, 1);
 }
 
+.pic-size {
+  height: 70px;
+  margin: 20px;
+}
+
+.pic-size-logo {
+  height: 70px;
+  margin: 5px;
+}
+
+
+.pic-size-big {
+  height: 250px;
+  margin: 5px 5px 5px 0;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+
+.job-description {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
 .list-inline {
   padding-left: 0;
 }
@@ -109,14 +140,6 @@ a:hover {
   padding: 20px;
 }
 
-
-#movies td {
-    padding: 10px;
-}
-
-#movies img {
-    width: 80px;
-}
 
 .list-inline li i {
     font-size: 25px;
